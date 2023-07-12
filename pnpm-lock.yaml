@@ -21,6 +21,9 @@ devDependencies:
   esbuild:
     specifier: ^0.18.11
     version: 0.18.11
+  flush-promises:
+    specifier: ^1.0.2
+    version: 1.0.2
   glob:
     specifier: ^10.3.3
     version: 10.3.3
@@ -752,6 +755,10 @@ packages:
 
   /flatted@3.2.7:
     resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
+    dev: true
+
+  /flush-promises@1.0.2:
+    resolution: {integrity: sha512-G0sYfLQERwKz4+4iOZYQEZVpOt9zQrlItIxQAAYAWpfby3gbHrx0osCHz5RLl/XoXevXk0xoN4hDFky/VV9TrA==}
     dev: true
 
   /follow-redirects@1.15.2:

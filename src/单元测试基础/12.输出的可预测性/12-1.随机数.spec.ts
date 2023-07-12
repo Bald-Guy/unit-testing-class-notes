@@ -1,5 +1,13 @@
 import { vi, it, expect, describe } from "vitest";
 // 保证给定特定输入时产生可预测的输出
+/**
+ *  1. 外部依赖
+ *    - api
+ *    - 第三方服务
+ *    - 数据库
+ *  2. 随机数
+ *  3. 日期 date
+ */
 
 /**
  * 业务代码
