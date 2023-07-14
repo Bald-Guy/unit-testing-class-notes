@@ -1,5 +1,5 @@
 import { innerHeightFn } from "./window";
 
-export function doubleInnerHeight() {
+export const doubleInnerHeight = () => {
     return innerHeightFn() * 2
-}
+};
